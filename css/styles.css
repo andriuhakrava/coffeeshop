@@ -1,0 +1,354 @@
+@font-face {
+	font-family: '28 Days Later';
+	src: url('fonts/8707.woff') format('woff');
+	font-style: normal;
+	font-weight: normal;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	overflow-x: hidden;
+}
+
+h2, h3 {
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+h3 {
+	color: #dc3413;
+	text-align: center;
+	font-size: 60px;	
+}
+
+h3:after {
+	content: '.....';
+	display: block;
+	color: #fff;
+}
+
+p {
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	max-width: 1198px;
+	margin: 0 auto;
+}
+
+header {
+	height: 899px;
+	width: 100vw;
+	background: url(../img/coffeeback-3.png) no-repeat center center;
+	background-size: cover;
+}
+
+section {
+	padding-top: 25px;
+	height: 100vh;
+	width: 100vw;
+	background: url(../img/coffeeback-3.png) no-repeat center center;
+	background-size: cover;
+/*	overflow: hidden;*/
+}
+/*
+section {
+	padding-top: 22px;
+}*/
+
+.header-block {
+	display: flex;
+}
+
+.coffeeshop-logo {
+	display: inline-block;
+	max-width: 394px;
+	padding: 29px 40px 18px 35px;
+	background: #dc3413;
+}
+
+.coffeeshop-logo img {
+	width: 100%;
+} 
+
+.coffeshop-menu {
+	display: inline-block;
+	max-width: 804px;
+	background: #281c13;
+}
+
+.coffeshop-menu ul {
+	margin: 37px 0 0;
+	padding: 0 0 0 16px;
+}
+
+.coffeshop-menu ul li {
+	display: inline-block;
+	position: relative;
+	padding: 0 31px;
+	text-align: center;
+}
+
+.coffeshop-menu ul li:after {
+	content: '....';
+	position: absolute;
+	bottom: -5px;
+	right: -27px;
+	font-size: 30px;
+	color: #c29b71;
+	transform: rotate(90deg);
+}
+
+.coffeshop-menu ul li:last-child:after {
+	display: none;
+}
+/*
+.coffeshop-menu ul li img {
+	text-align: center;
+}*/
+
+.coffeshop-menu ul li a {
+	display: block;
+	margin-top: 18px;
+	font-family: '28 Days Later', Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: #c29b71;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.coffeeshop-image {
+	overflow-x: hidden;
+}
+
+.coffeeshop-image-description {
+	position: relative;
+	top: -168px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.coffeeshop-image-title {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 26px 0 22px 46px;
+	line-height: 25px;
+	font-size: 16px;
+	max-width: 394px;
+	color: #f9c793;
+	background: rgba(16, 6, 2, 0.8);
+	border-top: 11px solid #dc3413;
+}
+
+.coffeeshop-image-title h2 {
+	margin-bottom: 5px;
+}
+
+.content-block {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.about {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 129px 0 195px;
+}
+
+.about-text {
+	display: inline-block;
+	max-width: 367px;
+	color: #dc3413;
+}
+
+.about-picture {
+	position: relative;
+	display: inline-block;
+	height: 557px;
+	width: 581px;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 7px solid #fff;
+}
+
+.about-picture img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.history {
+	display: flex;
+	padding: 96px 66px 73px 60px;
+/*	justify-content: space-between;*/
+}
+
+.history-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 16px;
+	margin-left: 48px;
+	color: #fff;
+}
+
+.history-content .history-links {
+	margin-bottom: 63px;
+}
+
+.history-content .history-links a {
+	padding: 16px 21px;
+	margin-right: 10px;
+	font-size: 22px;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #ed4e2e;
+	color: #fff;
+}
+
+.history-content .history-text {
+	font-size: 18px;
+}
+
+.history-content .history-text p {
+	padding-bottom: 53px;
+}
+
+.content-block-header {
+	max-width: 530px;
+	margin: 0 auto;
+}
+
+.content-block-header ul li {
+	display: inline-block;
+}
+
+.content-block-header ul li a {
+	padding: 12px 23px;
+	background: red;
+	font-size: 25px;
+	color: #fff;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+
+.menu {
+	height: 899px;
+}
+
+.coffee-menu-list {
+	padding: 35px 60px 59px 75px;
+}
+
+.coffee-menu-list img {
+	margin: 12px 12px 0 0;
+}
+
+.blog {
+	padding: 129px 74px;
+}
+
+.blog-list {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 55px;
+}
+
+.blog-list-item {
+	display: inline-block;
+	max-width: 500px;
+}
+
+.contact {
+	display: flex;
+	justify-content: space-between;
+	padding: 131px 119px 111px 128px;
+}
+
+.contact-text, .contact-form {
+	display: inline-block;
+}
+
+.contact-text h3 {
+	text-align: left;
+}
+
+.contact-text span {
+	display: block;
+	color: #fff;
+	font-style: italic;
+}
+
+.contact-form input {
+	display: block;
+	width: 414px;
+	margin-top: 47px;
+	font-size: 22px;
+	border: none;
+	border-bottom: 1px dashed #7f796a;
+	background: transparent;
+	outline: none;
+}
+
+.contact-form input[type="submit"] {
+	width: 200px;
+	padding: 20px 0;
+	background: #282625;
+	border-radius: 8px;
+	border: none;
+	color: #7f796a;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 28px;
+	text-transform: uppercase;
+}
+
+footer {
+	color: #fff;
+}
+
+.footer-menu {
+	display: flex;
+	justify-content: center;
+	padding: 35px 0;
+	background: #dc3413;
+}
+
+.footer-menu ul {
+	margin: 0;
+}
+
+.footer-menu ul li {
+	display: inline-block;
+}
+
+.footer-menu ul li:after {
+	content: '::';
+	display: inline-block;
+	margin: 0 18px 0 20px;
+}
+
+.footer-menu ul li a {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.copyright {
+	padding: 18px 0;
+	text-align: center;
+	background: #d12605;
+}
