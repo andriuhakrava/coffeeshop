@@ -59,12 +59,7 @@ section {
 	width: 100vw;
 	background: url(../img/coffeeback-3.png) no-repeat center center;
 	background-size: cover;
-/*	overflow: hidden;*/
 }
-/*
-section {
-	padding-top: 22px;
-}*/
 
 .header-block {
 	display: flex;
@@ -112,10 +107,6 @@ section {
 .coffeshop-menu ul li:last-child:after {
 	display: none;
 }
-/*
-.coffeshop-menu ul li img {
-	text-align: center;
-}*/
 
 .coffeshop-menu ul li a {
 	display: block;
@@ -191,7 +182,6 @@ section {
 .history {
 	display: flex;
 	padding: 96px 66px 73px 60px;
-/*	justify-content: space-between;*/
 }
 
 .history-content {
